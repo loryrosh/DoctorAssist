@@ -1,0 +1,53 @@
+@font-face
+{
+    font-family: 'Glyphicons Halflings';
+    src: url('fonts/glyphicons-halflings-regular.eot');
+    src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Palatino Linotype', sans-serif !important;
+}
+
+#service_buttons, div.tab-content
+{
+    padding-top: 60px !important;
+}
+
+#service_buttons button.role
+{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#service_buttons a:hover
+{
+    text-decoration: none;
+}
+
+.bg-danger, .bg-success
+{
+    padding: 10px;
+    display: none;
+}
+
+table
+{
+    width: 50% !important;
+}
+
+#timetables_result, .content_result
+{
+    display: none;
+}
+
+.delimeter
+{
+    padding-left: 30px;
+}
